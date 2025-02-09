@@ -1,7 +1,3 @@
-Here's a version where the book link is more prominent:  
-
----
-
 # 🚀 Teach Yourself C++ in 21 Days - Workshop Code  
 
 This repository contains the workshop code for the book **Teach Yourself C++ in 21 Days** 📚 by Jesse Liberty and Bradley Jones.  
