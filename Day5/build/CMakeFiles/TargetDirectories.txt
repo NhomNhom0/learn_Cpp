@@ -1,0 +1,3 @@
+/home/nhomnhom0/learn_C++/Day5/build/CMakeFiles/Day5.dir
+/home/nhomnhom0/learn_C++/Day5/build/CMakeFiles/edit_cache.dir
+/home/nhomnhom0/learn_C++/Day5/build/CMakeFiles/rebuild_cache.dir
