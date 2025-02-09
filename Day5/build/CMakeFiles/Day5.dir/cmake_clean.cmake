@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Day5.dir/main.cpp.o.d"
   "CMakeFiles/Day5.dir/src/divide.cpp.o"
   "CMakeFiles/Day5.dir/src/divide.cpp.o.d"
+  "CMakeFiles/Day5.dir/src/menu.cpp.o"
+  "CMakeFiles/Day5.dir/src/menu.cpp.o.d"
   "CMakeFiles/Day5.dir/src/perimeter.cpp.o"
   "CMakeFiles/Day5.dir/src/perimeter.cpp.o.d"
   "CMakeFiles/Day5.dir/src/power_recursive.cpp.o"

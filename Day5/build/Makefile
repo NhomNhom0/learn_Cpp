@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nhomnhom0/learn_C++/Day5
+CMAKE_SOURCE_DIR = /home/nhomnhom0/learn_Cpp/Day5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nhomnhom0/learn_C++/Day5/build
+CMAKE_BINARY_DIR = /home/nhomnhom0/learn_Cpp/Day5/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhomnhom0/learn_C++/Day5/build/CMakeFiles /home/nhomnhom0/learn_C++/Day5/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhomnhom0/learn_Cpp/Day5/build/CMakeFiles /home/nhomnhom0/learn_Cpp/Day5/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhomnhom0/learn_C++/Day5/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhomnhom0/learn_Cpp/Day5/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,30 @@ src/divide.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day5.dir/build.make CMakeFiles/Day5.dir/src/divide.cpp.s
 .PHONY : src/divide.cpp.s
 
+src/menu.o: src/menu.cpp.o
+.PHONY : src/menu.o
+
+# target to build an object file
+src/menu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day5.dir/build.make CMakeFiles/Day5.dir/src/menu.cpp.o
+.PHONY : src/menu.cpp.o
+
+src/menu.i: src/menu.cpp.i
+.PHONY : src/menu.i
+
+# target to preprocess a source file
+src/menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day5.dir/build.make CMakeFiles/Day5.dir/src/menu.cpp.i
+.PHONY : src/menu.cpp.i
+
+src/menu.s: src/menu.cpp.s
+.PHONY : src/menu.s
+
+# target to generate assembly for a file
+src/menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day5.dir/build.make CMakeFiles/Day5.dir/src/menu.cpp.s
+.PHONY : src/menu.cpp.s
+
 src/perimeter.o: src/perimeter.cpp.o
 .PHONY : src/perimeter.o
 
@@ -240,6 +264,9 @@ help:
 	@echo "... src/divide.o"
 	@echo "... src/divide.i"
 	@echo "... src/divide.s"
+	@echo "... src/menu.o"
+	@echo "... src/menu.i"
+	@echo "... src/menu.s"
 	@echo "... src/perimeter.o"
 	@echo "... src/perimeter.i"
 	@echo "... src/perimeter.s"
