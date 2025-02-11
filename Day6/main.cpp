@@ -1,3 +1,5 @@
+// Did't emplement menu for the user to input the data, just hard coded the data for the employee
+
 #include "./include/employee.hpp"
 #include <iostream>
 #include <string>
