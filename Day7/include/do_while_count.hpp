@@ -1,0 +1,1 @@
+void DoWhileCount(unsigned int start, unsigned int end, unsigned int step);

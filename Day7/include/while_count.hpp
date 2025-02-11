@@ -1,0 +1,1 @@
+void WhileCount(unsigned int start, unsigned int end, unsigned int step);

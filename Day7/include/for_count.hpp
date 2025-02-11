@@ -1,0 +1,1 @@
+void ForCount(unsigned int start, unsigned int end, unsigned int step);
