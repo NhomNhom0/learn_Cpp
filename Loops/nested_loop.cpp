@@ -1,4 +1,4 @@
-#include "../include/inner_loop.hpp"
+#include "include/inner_loop.hpp"
 #include <iostream>
 
 int main()
